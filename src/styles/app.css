@@ -1,0 +1,76 @@
+body {
+    font: 25px 'Shizuru';
+    color: rgb(233, 107, 159);
+    margin: 20px;
+}
+
+/* ol,
+ul {
+    padding-left: 30px;
+    text-align: center;
+    min-width: 233px;
+} */
+
+button {
+    font-family: 'Shizuru';
+    font-size: 20px;
+    border-radius: 5px;
+    border: .5px solid #86effc;
+    color:rgb(183, 0, 255) ;
+    min-width: max-content;
+}
+
+.field-row:after {
+    clear: both;
+    content: "";
+    display: table;
+    
+}
+
+/* .status {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(233, 107, 159);
+} */
+
+.square {
+    background: rgb(209, 153, 247);
+    border: 1px solid #999;
+    border-radius: 7px;
+    float: left;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    color: azure;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.square:focus:after {
+    color: yellow;
+    background: black;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.status{
+    width:max-content;
+}
+
+.game-field {
+    min-width: 178px;
+    display: flex;
+    margin-left: 40px;
+
+}
+
